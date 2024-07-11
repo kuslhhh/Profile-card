@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>Profile card</title>
+
+      <link rel="stylesheet" href="style.css">
+      
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' 
+      rel='stylesheet'>
+
+
+</head>
+<body>
+
+        <div class="profile-card">
+            <div class="image">
+                <img src="logo.png" alt="" class="profile-image">
+            </div>
+
+            <div class="text-data">
+                <span class="name">Kushal Jadhav</span>
+                <span class="job">Software Developer</span>
+            </div>
+
+            <div class="media-buttons">
+                <a href="https://www.facebook.com/kushal.jadhav.790" style="background: #4267b2;" class="link">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="https://x.com/Kuslhhh18" style="background: #1da1f2;" class="link">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+                <a href="https://www.instagram.com/kush_jadhav_/?igshid=YzAwZjE1ZTI0Zg%3D%3D" style="background:  #e1306c;" class="link">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+                <a href="https://github.com/kuslhhh" style="background: #24292E;" class="link">
+                    <i class='bx bxl-github'></i>
+                </a>
+            </div>
+
+            <div class="buttons">
+                <a href="https://www.linkedin.com/in/kuslhhh">
+                    <div class="button" onclick="linl">Follow</div>
+                </a>
+                <a id="whatsapp-link">
+                    <div class="button">Message</div>
+                </a>
+
+                <script>
+                    const number = '9325979433';
+                    const whLink = `https://wa.me/${number}`;
+
+                    document.getElementById('whatsapp-link').setAttribute('href', whLink);
+                </script>
+            </div>
+
+            
+
+
+
+        </div>
+
+       
+    
+</body>
+</html>
